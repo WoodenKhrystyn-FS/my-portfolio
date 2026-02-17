@@ -3,13 +3,16 @@
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s forwards;
 }
 
 .section-title {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  color: #ff6ec4; /* soft-glam accent */
+  color: #f97316; /* soft orange accent */
 }
 
 .about-text {
@@ -28,15 +31,26 @@
 }
 
 .skills-list span {
-  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  background: linear-gradient(90deg, #f97316, #fcd34d); /* orange → gold */
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   font-size: 0.9rem;
-  color: white;
+  color: #1f1f1f; /* dark text for contrast */
   font-weight: 500;
-  transition: transform 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .skills-list span:hover {
   transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 159, 28, 0.4); /* subtle glow */
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

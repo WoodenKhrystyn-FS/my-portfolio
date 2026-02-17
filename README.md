@@ -1,6 +1,6 @@
 # Khrystyn Wooden - Developer Portfolio
 
-A modern, responsive full-stack developer portfolio built with <strong>React + Vite</strong>, showcasing my projects, technical skills and current builds as a Web Development student graduating July 2026.
+A modern, responsive full-stack developer portfolio built with <strong>React + Vite</strong>, showcasing my projects, technical skills and current builds as a Web Development student graduating <strong>July 2026</strong>.
 
 This portfolio highlights my focus on <strong>UX-driven, scalable backend systems, and cross-platform development</strong>.
 
@@ -52,6 +52,7 @@ It refelcts my passion for building intuitive user experiences supported by secu
 ## Running Locally
 
 npm install
+<br>
 npm run dev
 
 

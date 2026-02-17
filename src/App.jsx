@@ -1,11 +1,11 @@
 import { useState } from "react";
-import kvlogo from "./assets/kv.JPG";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Hero from "./components/Hero";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+
+import Navbar from "./Components/Navbar";
+import About from "./Components/About";
+import Hero from "./Components/Hero";
+import Contact from "./Components/Contact";
+import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
 import "./App.css";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <div className="app">
         <Navbar />
         <About />
-        <Hero logo={kvlogo} />
+        <Hero />
         <Projects />
         <Skills />
         <Contact />

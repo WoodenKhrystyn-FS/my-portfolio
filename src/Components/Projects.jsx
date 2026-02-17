@@ -21,16 +21,22 @@ function Projects() {
       </p>
       <div className="project-grid">
         <div className="project-card">
-          {/* <h3>Project 1: Personal Portfolio Website</h3>
-          <p>
-            {" "}
-            A responsive portfolio website built with React and
-            styled-components. It showcases my skills, projects, and contact
-            information.
-          </p> */}
-          <a href={projectList[0].link}>Projects</a>
+          {projectList.map((project, index) => (
+            <div key={index} className="project-card">
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <a href={project.link} className="project-link">
+                View Project
+              </a>
+              <a href={project.github} className="project-link">
+                View on GitHub
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>
   );
 }
+
+export default Projects;

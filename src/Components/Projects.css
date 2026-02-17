@@ -12,7 +12,7 @@
 }
 
 .project-card {
-  background: #1a1a1a;
+  background-color: #1f1f1f;
   padding: 1.5rem;
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
@@ -21,16 +21,21 @@
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(255,110,196,0.3);
+  box-shadow: 0 10px 25px rgba(255,159,28,0.3);
 }
 
 .project-links a {
+  background: #f97316;
   margin-right: 1rem;
-  color: #ff6ec4;
+  color: #fff;
   text-decoration: none;
   font-weight: 500;
+  padding: 0.5rem 1rem;
 }
 
 .project-links a:hover {
   text-decoration: underline;
+  background: #fcd34d;
+  color: #1f1f1f;
+  transform: translateY(-2px);
 }
