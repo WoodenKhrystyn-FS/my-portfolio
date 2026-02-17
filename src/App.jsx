@@ -6,7 +6,7 @@ import Contact from "./components/Contact.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 
-import kvlogo from "./assets/kv.JPG";
+import kvlogo from "./assets/wooden.JPEG";
 import "./App.css";
 
 function App() {
