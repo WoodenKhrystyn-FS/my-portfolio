@@ -10,6 +10,8 @@ import Skills from "./Components/Skills.jsx";
 
 import "./App.css";
 
+import kvlogo from "./assets/wooden.jpeg";
+import "./App.css";
 function App() {
   return (
     <>
