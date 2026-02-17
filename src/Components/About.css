@@ -3,23 +3,23 @@
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 0.8s forwards;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f5f7fa;
 }
 
 .section-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1.5rem;
-  color: #f97316; /* soft orange accent */
+  color: #4da6ff;
 }
 
-.about-text {
-  font-size: 1rem;
+.about-description {
+  font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 1rem;
-  color: #f5f5f5;
+  color: #555;
 }
 
 .skills-list {
@@ -31,26 +31,16 @@
 }
 
 .skills-list span {
-  background: linear-gradient(90deg, #f97316, #fcd34d); /* orange → gold */
+  background: linear-gradient(90deg, #4da6ff, #80c1ff);
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   font-size: 0.9rem;
-  color: #1f1f1f; /* dark text for contrast */
+  color: #fff;
   font-weight: 500;
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .skills-list span:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(255, 159, 28, 0.4); /* subtle glow */
-}
-
-/* Fade-in animation */
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  box-shadow: 0 5px 15px rgba(77, 166, 255, 0.3);
 }

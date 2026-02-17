@@ -7,7 +7,7 @@ const projectList = [
     description:
       "A responsive portfolio website built with React and styled-components. It showcases my skills, projects, and contact information.",
     link: "#projects",
-    github: "https://github.com/WoodenKhrystyn-FS",
+    github: "https://github.com/WoodenKhrystyn-FS/my-portfolio",
   },
   {
     title: "Project 2: Snake Game",

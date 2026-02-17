@@ -1,56 +1,42 @@
 .skills-section {
   padding: 6rem 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
+  background-color: #f0f0f0;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
 }
 
 .skills-title {
   font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-  color: #461728; /* soft-glam gradient accent color */
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #4da6ff;
 }
 
 .skills-description {
-  font-size: 1rem;
-  margin-bottom: 3rem;
-  color: #f5f5f5;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
 }
 
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.skills-card {
-  background: #1a1a1a;
-  padding: 1.5rem;
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+.skills-list span {
+  background: linear-gradient(90deg, #4da6ff, #80c1ff);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 500;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.skills-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(255, 110, 196, 0.3);
+.skills-list span:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(77, 166, 255, 0.3);
 }
-
-.skills-card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  color: #7873f5; /* gradient companion color */
-}
-
-.skills-card ul {
-  list-style: none;
-  padding: 0;
-  color: #f5f5f5;
-}
-
-.skills-card ul li {
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
-}
-
