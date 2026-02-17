@@ -51,8 +51,8 @@ It refelcts my passion for building intuitive user experiences supported by secu
 
 ## Running Locally
 
-<npm install>
-<npm run dev>
+npm install
+npm run dev
 
 
 ## Future Enhancements
