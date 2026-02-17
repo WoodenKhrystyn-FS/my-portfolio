@@ -9,6 +9,13 @@ const projectList = [
     link: "#projects",
     github: "https://github.com/WoodenKhrystyn-FS",
   },
+  {
+    title: "Project 2: Snake Game",
+    description:
+      "A classic Snake game implemented using JavaScript, HTML, and CSS. The game features smooth controls, increasing difficulty levels, and a high score tracker.",
+    link: "#projects",
+    github: "https://github.com/WoodenKhrystyn-FS/Snake-Game",
+  }
 ];
 
 function Projects() {
