@@ -4,11 +4,13 @@ import "./Contact.css";
 function Contact() {
   return (
     <section className="contact">
-      <h2 className="contact-title">Contact Me</h2>
+      <h2 className="contact-title">Let's Connect!</h2>
       <p className="contact-description">
-        Feel free to reach out to me via email at{" "}
-        <a href="mailto:kvwooden@student.fullsail.edu">
-          kvwooden@student.fullsail.edu
+        I am currently seeking opportunities to grow as a developer and contribute to impactful projects. To discuss an opportunity or simply connect - I'd love to hear from you!
+      </p>
+      <div>
+        <a href="mailto:khrystyn.tender@icloud.com" className="contact-email">
+          khrystyn.tender@icloud.com
         </a>
         or connect with me on LinkedIn at{" "}
         <a
@@ -18,9 +20,7 @@ function Contact() {
         >
           https://www.linkedin.com/in/khrystyn-wooden-b23212176/
         </a>
-        . I am always open to discussing new opportunities, collaborations, or
-        just connecting with fellow developers and tech enthusiasts.
-      </p>
+      </div>
     </section>
   );
 }

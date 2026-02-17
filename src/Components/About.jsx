@@ -5,29 +5,27 @@ function About() {
   return (
     <section className="about">
       <div className="about-content">
-        <h2 className="section-title">About Me</h2>
+        <h2 className="section-title">About Me...</h2>
         <p>
           Hello! I'm <strong>Khrystyn Wooden</strong>, a Web Development student
-          graduating in <strong>July 2026</strong>. My specialty is in
-          JavaScript and React, and I am passionate about building dynamic and
-          responsive web applications. I am eager to apply my skills and
-          knowledge in real-world projects and contribute to innovative
-          solutions in the tech industry.
+          graduating in <strong>July 2026</strong> with a focus on JavaScript
+          and React. I specialize in building dynamic, responsive web
+          applications that provide clean modern designs and functionality.
         </p>
         <p className="about-description">
-          I have a strong foundation in front-end development and am
-          continuously learning new technologies to enhance my skill set. I am
-          excited about the opportunities that lie ahead and am committed to
-          growing as a developer while making meaningful contributions to the
-          field of web development.
+          I have a passion for learning new technologies and applying them toI
+          solve real-world problems. My projects range from personal portfolio
+          websites to interactive games, showcasing my ability to create
+          engaging user experiences. I am eager to collaborate on innovative
+          projects and contribute to the tech community.
         </p>
         <div className="skills-list">
           <span>
-            <strong>Skills:</strong> JavaScript, React, HTML, CSS, Git, and 
+            <strong>Core Skills:</strong> JavaScript, React, HTML, CSS, Git,
+            Node.js, MongoDB, Express
           </span>
         </div>
       </div>
-
     </section>
   );
 }
