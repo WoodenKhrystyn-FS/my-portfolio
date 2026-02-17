@@ -15,9 +15,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div>
-        <p>Current Version: {__GIT_COMMIT_HASH__}</p>
-      </div>
       <div className="app">
         <Navbar />
         <About />
