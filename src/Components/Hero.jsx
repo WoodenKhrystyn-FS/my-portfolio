@@ -1,11 +1,11 @@
 import React from "react";
 import "./Hero.css";
 
-function Hero({ logo }) {
+function Hero({ kvlogo }) {
   return (
     <section className="hero">
       <div className="hero-logo">
-        <img src={logo} alt="Khrystyn Wooden logo" />
+        <img src={kvlogo} alt="wooden" />
       </div>
       <div className="hero-content">
         <h1 className="hero-title">

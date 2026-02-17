@@ -6,13 +6,12 @@ import Contact from "./Components/Contact.jsx";
 import Projects from "./Components/Projects.jsx";
 import Skills from "./Components/Skills.jsx";
 
-import kvlogo from "./assets/wooden.JPEG";
+import kvlogo from "./assets/wooden.jpeg";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>Khrystyn Wooden</h1>
       <div className="app">
         <Navbar />
         <About />
