@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Navbar from "./components/Navbar.jsx";
-import About from "./components/About.jsx";
-import Hero from "./components/Hero.jsx";
-import Contact from "./components/Contact.jsx";
-import Projects from "./components/Projects.jsx";
-import Skills from "./components/Skills.jsx";
+import Navbar from "./Components/Navbar.jsx";
+import About from "./Components/About.jsx";
+import Hero from "./Components/Hero.jsx";
+import Contact from "./Components/Contact.jsx";
+import Projects from "./Components/Projects.jsx";
+import Skills from "./Components/Skills.jsx";
 
 import kvlogo from "./assets/wooden.JPEG";
 import "./App.css";
