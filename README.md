@@ -1,47 +1,68 @@
 # Khrystyn Wooden - Developer Portfolio
 
-A modern, responsive full-stack developer portfolio built with <strong>React + Vite</strong>, showcasing my projects, technical skills and current builds as a Web Development student graduating in July 2026.
+A modern, responsive full-stack developer portfolio built with <strong>React + Vite</strong>, showcasing my projects, technical skills and current builds as a Web Development student graduating July 2026.
+
+This portfolio highlights my focus on <strong>UX-driven, scalable backend systems, and cross-platform development</strong>.
 
 
-## React Compiler
+## About My Portfolio
 
+This porfolio is designed and developed to demonstrate:
 
-
-## About Portfolio
-
-This porfolio is designed and developed to highlight:
-
-- Full0stack development skills
+- Full-stack development skills (MERN structure)
 - UX-focused design principles
-- Responsive and mobile-first layouts
+- Responsive, mobile-first layouts
 - Clean component architecture
 - Modern UI with subtle animations
+- Organized project structure promoting scalability and maintainability
 
-It refelcts my focus on building intuitive user experiences supported by scalable backend systems.
+It refelcts my passion for building intuitive user experiences supported by secure backend systems.
 
 ## Currently Building
 
-- Mock bakery website for a local baker (Academic Project)
+- <strong>Mock Bakery Website</strong> for a local baker (Academic Project)
+    - Responsive marketing website
+    - Clean UI/UX layout
+    - Component-based React structure
+
 
 ## Tech Stack
 
-Frontend
+### Frontend
 - React
 - Vite
 - JavaScript
 - HTML5
 - CSS3
 
-Backend
+### Backend
 - Node.js
 - Express
 - REST APIs
 - MongoDB
 - MySQL
 
-Tools
+### Tools
 - Git
 - GitHub
 - npm
 - Webpack
 - Babel
+
+## Running Locally
+
+<npm install>
+<npm run dev>
+
+
+## Future Enhancements
+
+- Backend-powered contact form
+- Role-based authentication demo
+- Expanded mobile project section
+- Case study breakdowns for major projects
+- Dark/light mode toggle
+
+
+## Connect With Me
+- LinkedIn: (https://www.linkedin.com/in/khrystyn-wooden-b23212176/)
