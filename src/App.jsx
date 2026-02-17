@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import kvlogo from "./assets/wooden.jpeg";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Hero from "./Components/Hero";
@@ -11,11 +11,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>Khrystyn Wooden</h1>
       <div className="app">
         <Navbar />
         <About />
-        <Hero />
+        <Hero kvlogo={kvlogo} />
         <Projects />
         <Skills />
         <Contact />

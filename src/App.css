@@ -6,7 +6,7 @@
 }
 
 .logo {
-  height: 6em;
+  height: 1em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -41,10 +41,3 @@
   color: #888;
 }
 
-.profile-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
