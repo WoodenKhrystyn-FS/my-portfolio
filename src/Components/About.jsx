@@ -6,7 +6,7 @@ function About() {
     <section className="about">
       <div className="about-content">
         <h2 className="section-title">About Me...</h2>
-        <p>
+        <p className="about-description">
           Hello! I'm <strong>Khrystyn Wooden</strong>, a Web Development student
           graduating in <strong>July 2026</strong> with a focus on JavaScript
           and React. I specialize in building dynamic, responsive web

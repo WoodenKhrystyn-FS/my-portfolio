@@ -6,7 +6,7 @@ const projectList = [
     title: "Project 1: Personal Portfolio Website",
     description:
       "A responsive portfolio website built with React and styled-components. It showcases my skills, projects, and contact information.",
-    link: "https://khrystyn-wooden.netlify.app",
+    link: "#projects",
     github: "https://github.com/WoodenKhrystyn-FS/my-portfolio",
   },
   {
