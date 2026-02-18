@@ -2,7 +2,7 @@
 
 ## 🌐 Live Website
 
-👉 https://khrystyn-wooden.netlify.app/
+👉https://khrystynwooden.netlify.app/
 
 
 A modern, responsive full-stack developer portfolio built with <strong>React + Vite</strong>, showcasing my projects, technical skills and current builds as a Web Development student graduating <strong>July 2026</strong>.
