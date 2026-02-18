@@ -37,7 +37,7 @@ function Hero({ kvlogo }) {
       <p className="currently-building">
         <span>
           Currently building : Personal Portfolio Website to showcase my
-          projects and skills and an React app during my Full Sail University
+          projects and skills, React app during my Full Sail University
           degree journey
         </span>
       </p>

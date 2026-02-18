@@ -16,7 +16,7 @@
 .projects-description {
   font-size: 1.1rem;
   margin-bottom: 3rem;
-  color: #555;
+  color: #333;
 }
 
 .project-grid {
@@ -35,6 +35,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 100%;
   max-width: 300px;
+  
 }
 
 .project-card:hover {

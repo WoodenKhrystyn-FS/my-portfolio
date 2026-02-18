@@ -27,10 +27,16 @@
   color: #fff;
   text-decoration: none;
   border-radius: 12px;
+  font-weight: 500;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .contact a:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(255, 196, 0, 0.4);
+  box-shadow: 0 8px 20px rgba(77, 166, 255, 0.4);
 }
