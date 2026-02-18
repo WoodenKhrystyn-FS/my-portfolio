@@ -6,7 +6,7 @@
 
 👉https://khrystynwooden.netlify.app/
 
-![Portfolio Screenshot] (assets/portfolio-screenshot.png)
+! [Portfolio Screenshot] (assets/portfolio-screenshot.png)
 
 
 A modern, responsive full-stack developer portfolio built with <strong>React + Vite</strong>, showcasing my projects, technical skills and current builds as a Web Development student graduating <strong>July 2026</strong>.
