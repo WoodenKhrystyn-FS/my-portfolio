@@ -27,10 +27,12 @@ It refelcts my passion for building intuitive user experiences supported by secu
 
 ## Currently Building
 
-- <strong>Mock Bakery Website</strong> for a local baker (Academic Project)
+- <strong>Mock Bakery Website</strong> for a local baker 
     - Responsive marketing website
     - Clean UI/UX layout
     - Component-based React structure
+
+- <strong>Blog Post/Journal</strong>
 
 
 ## Tech Stack
