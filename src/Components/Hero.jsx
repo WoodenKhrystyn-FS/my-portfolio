@@ -1,5 +1,5 @@
 import React from "react";
-import kvlogo from "../assets/wooden.jpeg";
+//import kvlogo from "../assets/wooden.jpeg";
 import "./Hero.css";
 
 function Hero({ kvlogo }) {
@@ -35,9 +35,16 @@ function Hero({ kvlogo }) {
 
       <p className="currently-building">
         <span>
-          Currently building : Personal Portfolio Website to showcase my
-          projects and skills, React app during my Full Sail University
+          Currently building : 
+          <ul>
+            <li>Personal Portfolio Website to showcase my
+          projects and skills</li>
+          <li>
+            React app during my Full Sail University
           degree journey
+          </li>
+          <li>Nail Booking System built with React and MongdoDB</li>
+          </ul>
         </span>
       </p>
 
