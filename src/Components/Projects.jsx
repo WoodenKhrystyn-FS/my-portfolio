@@ -15,6 +15,13 @@ const projectList = [
       "A classic Snake game implemented using JavaScript, HTML, and CSS. The game features smooth controls, increasing difficulty levels, and a high score tracker.",
     link: "#projects",
     github: "https://github.com/WoodenKhrystyn-FS/Snake-Game",
+  },
+  {
+    title: "Project 3: Nail Portfolio and Booking System",
+    description:
+      "A responsive nail business portfolio website built React and components. This site features a local nail techinician offering nail care services with nail sets gallery, contact information, leave reviews, and luxury- styled pages with a booking system for appointments. ",
+    link: "#projects",
+    github: "https://github.com/WoodenKhrystyn-FS/pinkyswear-nails",
   }
 ];
 

@@ -13,10 +13,9 @@ function About() {
           applications that provide clean modern designs and functionality.
         </p>
         <p className="about-description">
-          I have a passion for learning new technologies and applying them toI
+          I have a passion for learning new technologies and applying them to
           solve real-world problems. My projects range from personal portfolio
-          websites to interactive games, showcasing my ability to create
-          engaging user experiences. I am eager to collaborate on innovative
+          websites, interactive games to applications for businesses and or projects on smaller scale to showcase my ability to create engaging user experiences. I am eager to collaborate on innovative
           projects and contribute to the tech community.
         </p>
         <div className="skills-list">

@@ -43,7 +43,7 @@ function Hero({ kvlogo }) {
             React app during my Full Sail University
           degree journey
           </li>
-          <li>Nail Booking System built with React and MongdoDB</li>
+          <li>Nail Booking System built with React and MongdoDB: PinkySwear Nails</li>
           </ul>
         </span>
       </p>
