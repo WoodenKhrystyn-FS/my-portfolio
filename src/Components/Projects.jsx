@@ -27,11 +27,12 @@ const projectList = [
 
 function Projects() {
   return (
-    <section id="projects" className="projects-section">
-      <h2 className="projects-title">My Projects</h2>
+    <div>
+      <section id="projects" className="projects-section">
+      <h2 className="projects-title">Projects</h2>
       <p className="projects-description">
         {" "}
-        Here are some of the projects I have worked on:
+        Current projects in progress or close to completion:
       </p>
       <div className="project-grid">
         <div className="project-card">
@@ -50,6 +51,8 @@ function Projects() {
         </div>
       </div>
     </section>
+    </div>
+    
   );
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import kvlogo from "./assets/wooden.jpeg";
+import khrys from "./assets/khrys.jpeg";
 
 import Navbar from "./Components/Navbar.jsx";
 import About from "./Components/About.jsx";
@@ -13,13 +13,16 @@ import "./App.css";
 function App() {
   return (
     <>
+      {/* <div>
+       <img src={khrys} alt="Khrystyn Wooden"/> 
+    </div> */}
       <div className="app">
-        <Navbar />
+        <Navbar khrys={khrys} />
         <About />
-        <Hero kvlogo={kvlogo} />
+        <Contact />
+        <Hero />
         <Projects />
         <Skills />
-        <Contact />
       </div>
     </>
   );

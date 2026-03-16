@@ -8,15 +8,6 @@
   background-color: #f5f7fa; /* soft, professional background */
 }
 
-
-.section-title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  color: #4da6ff; /* soft blue accent */
-}
-
-
 .about-description {
   font-size: 1.1rem;
   line-height: 1.7;
@@ -33,7 +24,7 @@
 }
 
 .skills-list span {
-  background: linear-gradient(90deg, #4da6ff, #80c1ff);
+  background: linear-gradient(90deg, #569e71, #80c1ff);
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -44,5 +35,5 @@
 
 .skills-list span:hover {
   transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(77, 166, 255, 0.3);
+  box-shadow: 0 5px 15px rgba(7, 7, 8, 0.3);
 }

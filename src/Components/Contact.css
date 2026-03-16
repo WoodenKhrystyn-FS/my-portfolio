@@ -1,39 +1,45 @@
 .contact {
-  background-color: #cce6ff;
+  background-color: #588167;
   padding: 60px 20px;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #333;
 }
 
 .contact-title {
-  font-size: 2.5rem;
+  font-size: 3.75rem;
   margin-bottom: 1rem;
-  color: #4da6ff;
+  color: #0a0a0a;
 }
 
 .contact-description {
-  font-size: 1.2rem;
-  color: #555;
+  font-size: 1.5rem;
+  color: #f2efef;
   max-width: 600px;
   margin: 0 auto 20px auto;
 }
 
 .contact a {
   display: inline-block;
-  margin: 10px 10px 0;
+  margin: 45px 30px 0;
   padding: 10px 20px;
-  background: linear-gradient(90deg, #4da6ff, #80c1ff);
+  background: linear-gradient(90deg, #b88d0a, #20551e);
   color: #fff;
   text-decoration: none;
   border-radius: 12px;
   font-weight: 500;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .contact a:hover {

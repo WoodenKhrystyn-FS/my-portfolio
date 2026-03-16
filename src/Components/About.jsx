@@ -5,18 +5,19 @@ function About() {
   return (
     <section className="about">
       <div className="about-content">
-        <h2 className="section-title">About Me...</h2>
         <p className="about-description">
-          Hello! I'm <strong>Khrystyn Wooden</strong>, a Web Development student
-          graduating in <strong>July 2026</strong> with a focus on JavaScript
-          and React. I specialize in building dynamic, responsive web
-          applications that provide clean modern designs and functionality.
+          <strong>Hello!</strong> I'm a Web Development student graduating{" "}
+          <strong>July 2026</strong>, with a focus of JavaScript and React.
+          Specializing in building dynamic, responsive web applications that
+          provide clean modern designs and functionality.
         </p>
         <p className="about-description">
           I have a passion for learning new technologies and applying them to
           solve real-world problems. My projects range from personal portfolio
-          websites, interactive games to applications for businesses and or projects on smaller scale to showcase my ability to create engaging user experiences. I am eager to collaborate on innovative
-          projects and contribute to the tech community.
+          websites, interactive games to applications for businesses and or
+          smaller scale projects to showcase my ability to create engaging user
+          experiences. I am eager to collaborate on innovative projects and
+          contribute to the tech community.
         </p>
         <div className="skills-list">
           <span>

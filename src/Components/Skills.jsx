@@ -11,20 +11,24 @@ function Skills() {
   ];
 
   return (
-    <section id="skills" className="skills-section">
-      <h2 className="skills-title">My Skills</h2>
-      <p className="skills-description">
-        I have experience in a variety of technologies and tools, including:
-      </p>
-
-      <div className="skills-grid">
-        <ul className="skills-list">
-          {skillsList.map((skill, index) => (
-            <li key={index}>{skill}</li>
-          ))}
-        </ul>
-      </div>
-    </section>
+    <div className="skills-page">
+      <section id="skills" className="skills-section">
+        <div className="skills-card">
+          <h2 className="skills-title">Skills</h2>
+          <div className="skills-description">
+            <strong>
+              <div className="skills-grid">
+                <ul className="skills-list">
+                  {skillsList.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                  ))}
+                </ul>
+              </div>
+            </strong>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }
 
