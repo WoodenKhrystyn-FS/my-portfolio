@@ -1,36 +1,37 @@
-.contact {
-  background-color: #588167;
-  padding: 60px 20px;
+.contact-section {
+  background: #fafafa;
+  padding: 5rem 2rem;
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: #333;
+  color: #1e293b;
 }
 
 .contact-title {
-  font-size: 3.75rem;
+  font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 1rem;
-  color: #0a0a0a;
 }
 
 .contact-description {
-  font-size: 1.5rem;
-  color: #f2efef;
-  max-width: 600px;
-  margin: 0 auto 20px auto;
+  font-size: 1.4rem;
+  color: #475569;
+  margin-bottom: 2.5rem;
 }
 
-.contact a {
-  display: inline-block;
-  margin: 45px 30px 0;
-  padding: 10px 20px;
-  background: linear-gradient(90deg, #b88d0a, #20551e);
-  color: #fff;
-  text-decoration: none;
-  border-radius: 12px;
-  font-weight: 500;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+.contact-links {
+  margin-top: 30px;
+}
+
+.contact-links a {
+  margin: 0 15px;
+  padding: 10px 18px;
+  background: linear-gradient(135deg, #4f7df9, #6d5dfc);
+  color: #ffffff;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.contact-links a:hover {
+  transform: translateY(-2px);
 }
 
 @keyframes fadeIn {
@@ -42,7 +43,3 @@
   }
 }
 
-.contact a:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(77, 166, 255, 0.4);
-}

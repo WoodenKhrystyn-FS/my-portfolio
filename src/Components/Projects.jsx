@@ -3,58 +3,56 @@ import "./Projects.css";
 
 const projectList = [
   {
-    title: "Project 1: Personal Portfolio Website",
-    description:
-      "A responsive portfolio website built with React and styled-components. It showcases my skills, projects, and contact information.",
-    link: "#projects",
-    github: "https://github.com/WoodenKhrystyn-FS/my-portfolio",
+    id: "portfolio",
+    title: "Personal Portfolio Website",
+    description: "Modern responsive portfolio showcasing projects and skills.",
+    tech: "React • CSS • Vite",
+    github: "https://github.com/...",
+    live: "#",
   },
   {
-    title: "Project 2: Snake Game",
-    description:
-      "A classic Snake game implemented using JavaScript, HTML, and CSS. The game features smooth controls, increasing difficulty levels, and a high score tracker.",
-    link: "#projects",
-    github: "https://github.com/WoodenKhrystyn-FS/SnakeGame",
+    id: "snake",
+    title: "Snake Game",
+    description: "Classic snake game with dynamic speed and score tracking.",
+    tech: "JavaScript • HTML • CSS",
+    github: "https://github.com/...",
   },
   {
-    title: "Project 3: Nail Portfolio and Booking System",
+    id: "nails",
+    title: "Nail Booking System",
     description:
-      "A responsive nail business portfolio website built React and components. This site features a local nail techinician offering nail care services with nail sets gallery, contact information, leave reviews, and luxury- styled pages with a booking system for appointments. ",
-    link: "#projects",
-    github: "https://github.com/WoodenKhrystyn-FS/pinkyswear-nails",
-  }
+      "Full-stack booking app with scheduling and service management.",
+    tech: "React • Node • MongoDB",
+    github: "https://github.com/...",
+  },
 ];
 
 function Projects() {
   return (
-    <div>
-      <section id="projects" className="projects-section">
+    <section id="projects" className="projects-section">
       <h2 className="projects-title">Projects</h2>
-      <p className="projects-description">
-        {" "}
-        Current projects in progress or close to completion:
-      </p>
+      <p className="projects-description">A selection of my recent work:</p>
       <div className="project-grid">
-        <div className="project-card">
-          {projectList.map((project, index) => (
-            <div key={index} className="project-card">
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <a href={project.link} className="project-link">
-                View Project
-              </a>
-              <a href={project.github} className="project-link">
-                View on GitHub
+        {projectList.map((project, index) => (
+          <div key={index} className="project-card">
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+            <p className="project=tech">{project.tech}</p>
+            <div className="project-links">
+              {project.live && (
+                <a href={project.live} className="project-btn primary">
+                  Live Demo
+                </a>
+              )}
+              <a href={project.github} className="project-btn secondary">
+                GitHub
               </a>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
-    </div>
-    
   );
 }
 
 export default Projects;
-

@@ -1,22 +1,25 @@
 .skills-section {
-  padding: 6rem 2rem;
-  background-color: #f5f7fa;
+  padding: 5rem 2rem;
+  background: #fafafa;
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: #333;
+  color: #1e293b;
 }
 
 .skills-title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #000000;
 }
 
 .skills-description {
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  color: #475569;
+}
+
+.skills-grid{
+  display: grid;
+  
 }
 
 .skills-list {
@@ -27,7 +30,7 @@
 }
 
 .skills-list span {
-  background: linear-gradient(90deg, #b88d0a, #20551e);
+  background: linear-gradient(135deg, #4f7df9, #6d5dfc);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 1.5rem;

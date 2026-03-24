@@ -1,6 +1,9 @@
 import React from "react";
-import khrys from "./assets/khrys.jpeg";
 
+//Assets:
+import wooden from "./assets/wooden.jpeg";
+
+//Components
 import Navbar from "./Components/Navbar.jsx";
 import About from "./Components/About.jsx";
 import Hero from "./Components/Hero.jsx";
@@ -8,21 +11,41 @@ import Contact from "./Components/Contact.jsx";
 import Projects from "./Components/Projects.jsx";
 import Skills from "./Components/Skills.jsx";
 
+//Styles
 import "./App.css";
 
 function App() {
   return (
     <>
-      {/* <div>
-       <img src={khrys} alt="Khrystyn Wooden"/> 
-    </div> */}
       <div className="app">
-        <Navbar khrys={khrys} />
-        <About />
-        <Contact />
-        <Hero />
-        <Projects />
-        <Skills />
+        <Navbar profileImage={wooden} />
+        <main>
+          <section>
+            <container>
+              <Hero />
+            </container>
+          </section>
+          <section>
+            <container>
+              <About />
+            </container>
+          </section>
+          <section>
+            <container>
+              <Skills />
+            </container>
+          </section>
+          <section>
+            <container>
+              <Projects />
+            </container>
+          </section>
+          <section>
+            <container>
+              <Contact />
+            </container>
+          </section>
+        </main>
       </div>
     </>
   );
