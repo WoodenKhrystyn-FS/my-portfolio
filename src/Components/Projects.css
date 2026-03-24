@@ -80,3 +80,7 @@
   border: 1px solid #4f7df9;
   color: #4f7df9;
 }
+
+.project-btn:hover {
+  transform: translateY(-2px);
+}
