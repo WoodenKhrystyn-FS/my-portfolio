@@ -48,7 +48,7 @@ function Projects() {
 
               <div className="project-tech">
                 {Array.isArray(project.tech) &&
-                  project.tech.map((tech) => (<span key={tech}>{tech}</span>))}
+                  project.tech.map((tech) => <span key={tech}>{tech}</span>)}
               </div>
 
               <div className="project-links">
