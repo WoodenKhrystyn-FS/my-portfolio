@@ -8,7 +8,7 @@ const projectList = [
     description:
       "Responsive portfolio  with dynamic components, smooth navigation and modern UI design.",
     tech: ["React", "CSS", "Vite"],
-    image: "../assets/portfolio-screenshot.png",
+    image: "../public/assets/portfolio-screenshot.png",
     github: "https://github.com/...",
     live: "#",
   },
@@ -17,7 +17,7 @@ const projectList = [
     title: "Snake Game",
     description: "Classic snake game with dynamic speed and score tracking.",
     tech: ["JavaScript", "HTML", "CSS"],
-    image: "../assets/snake.png",
+    image: "../public/assets/snake.png",
     github: "https://github.com/...",
   },
   {
@@ -26,7 +26,7 @@ const projectList = [
     description:
       "Full-stack booking app with scheduling and service management.",
     tech: ["React", "Node", "MongoDB"],
-    image: "../assets/nails.png",
+    image: "../public/assets/nails.png",
     github: "https://github.com/...",
   },
 ];
@@ -58,7 +58,7 @@ function Projects() {
                     Live
                   </a>
                 )}
-                <a href={project.github} className="btn btn-secondary">
+                <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
                   GitHub
                 </a>
               </div>
