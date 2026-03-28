@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../public/assets/wooden.jpeg";
+import profileImg from "../assets/wooden.jpeg";
 import "./Hero.css";
 
 function Hero() {

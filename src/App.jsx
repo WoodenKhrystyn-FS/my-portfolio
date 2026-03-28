@@ -1,7 +1,7 @@
 import React from "react";
 
 //Assets:
-import profileImg from "../public/assets/wooden.jpeg";
+import profileImg from "./assets/wooden.jpeg";
 
 //Components
 import Navbar from "./Components/Navbar.jsx";
@@ -18,11 +18,11 @@ function App() {
   return (
     <>
       <div className="app">
-        <Navbar profileImage={profileImg} />
+        <Navbar  />
         <main>
           <section>
             <container>
-              <Hero />
+              <Hero profileImage={profileImg}  />
             </container>
           </section>
           <section>

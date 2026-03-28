@@ -1,5 +1,5 @@
 .hero {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 
 /* Layout */
@@ -53,7 +53,18 @@
   height: 280px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.hero-image-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.5), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .hero-image-wrapper img {

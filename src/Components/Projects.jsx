@@ -1,4 +1,7 @@
 import React from "react";
+import img1 from "../assets/portfolio-screenshot.png";
+import img2 from "../assets/snake.png";
+import img3 from "../assets/nails.png";
 import "./Projects.css";
 
 const projectList = [
@@ -8,7 +11,7 @@ const projectList = [
     description:
       "Responsive portfolio  with dynamic components, smooth navigation and modern UI design.",
     tech: ["React", "CSS", "Vite"],
-    image: "../public/assets/portfolio-screenshot.png",
+    image: img1,
     github: "https://github.com/...",
     live: "#",
   },
@@ -17,7 +20,7 @@ const projectList = [
     title: "Snake Game",
     description: "Classic snake game with dynamic speed and score tracking.",
     tech: ["JavaScript", "HTML", "CSS"],
-    image: "../public/assets/snake.png",
+    image: img2,
     github: "https://github.com/...",
   },
   {
@@ -26,7 +29,7 @@ const projectList = [
     description:
       "Full-stack booking app with scheduling and service management.",
     tech: ["React", "Node", "MongoDB"],
-    image: "../public/assets/nails.png",
+    image: img3,
     github: "https://github.com/...",
   },
 ];
