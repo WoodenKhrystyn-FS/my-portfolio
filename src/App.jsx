@@ -1,7 +1,7 @@
 import React from "react";
 
 //Assets:
-import wooden from "./assets/wooden.jpeg";
+import wooden from "../public/assets/wooden.jpeg";
 
 //Components
 import Navbar from "./Components/Navbar.jsx";

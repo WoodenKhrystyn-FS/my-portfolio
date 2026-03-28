@@ -5,7 +5,8 @@ const projectList = [
   {
     id: "portfolio",
     title: "Personal Portfolio Website",
-    description: "Modern responsive portfolio showcasing projects and skills.",
+    description:
+      "Responsive portfolio  with dynamic components, smooth navigation and modern UI design.",
     tech: ["React", "CSS", "Vite"],
     image: "../assets/portfolio-screenshot.png",
     github: "https://github.com/...",
