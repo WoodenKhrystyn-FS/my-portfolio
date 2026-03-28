@@ -1,7 +1,7 @@
 import React from "react";
 
 //Assets:
-import wooden from "../public/assets/wooden.jpeg";
+import profileImg from "../public/assets/wooden.jpeg";
 
 //Components
 import Navbar from "./Components/Navbar.jsx";
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <div className="app">
-        <Navbar profileImage={wooden} />
+        <Navbar profileImage={profileImg} />
         <main>
           <section>
             <container>
