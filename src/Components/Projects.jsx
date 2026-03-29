@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../assets/portfolio-screenshot.png";
 import img2 from "../assets/snake.png";
 import img3 from "../assets/nails.png";
+import img4 from "../assets/TLLBscreenshot.png";
 import "./Projects.css";
 
 const projectList = [
@@ -32,6 +33,15 @@ const projectList = [
     image: img3,
     github: "https://github.com/...",
   },
+  {
+    id: "tllb",
+    title: "Bakery Website - (Course Project)",
+    description:
+      "Responsive bakery site with product showcase and contact form.",
+    tech: ["React", "CSS", "Vite"],
+    image: img4,
+    github: "https://github.com/WoodenKhrystyn-FS/nessies-app",
+  },
 ];
 
 function Projects() {
@@ -61,7 +71,12 @@ function Projects() {
                     Live
                   </a>
                 )}
-                <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-secondary"
+                >
                   GitHub
                 </a>
               </div>
