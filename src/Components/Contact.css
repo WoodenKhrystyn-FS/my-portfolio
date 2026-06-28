@@ -1,5 +1,4 @@
 .contact-section {
-  background: #fafafa;
   padding: 5rem 2rem;
   color: #1e293b;
 }
@@ -69,7 +68,6 @@
   background: linear-gradient(135deg, #4f7df9, #6d5dfc);
   color: white;
   border: none;
-  padding: 0.8rem;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s ease;

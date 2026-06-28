@@ -5,21 +5,38 @@ import "./Hero.css";
 function Hero() {
   return (
     <section className="hero section">
-      <div className="container hero-container">
-
+      <div className="hero-container">
         {/* LEFT SIDE */}
         <div className="hero-left">
+          <div className="status-pill">
+            🚀 Currently Building: Three Little Ladies Bakery
+          </div>
+
+          <p className="hero-intro">Hi, I'm</p>
+
+          <h1 className="hero-name">
+            Khrystyn <span className="hero-highlight">Wooden</span>
+          </h1>
+
           <h1 className="hero-title">
-            Building Scalable & User-Focused Web Applications
+            Designing intuitive experiences and building scalable web
+            applications.
           </h1>
 
           <h2 className="hero-subtitle">
-            Full-Stack Developer | React • Node • MongoDB
+            UX-Focused Full-Stack Developer React • JavaScript • Node.js •
+            MongoDB
           </h2>
 
           <p className="hero-description">
-            I design and develop responsive, high-performance applications
-            with clean architecture and intuitive user experiences.
+            I'm a UX-focused Full-Stack Developer who enjoys creating
+            responsive, accessible and high-performance application using React,
+            Node.js and modern JavaScript.
+          </p>
+
+          <p>
+            ✨ Open to Full-Stack, Frontend, and UX-focused Software Development
+            opportunities.
           </p>
 
           <div className="hero-buttons">
@@ -39,7 +56,6 @@ function Hero() {
             <img src={profileImg} alt="Khrystyn Wooden" />
           </div>
         </div>
-
       </div>
     </section>
   );

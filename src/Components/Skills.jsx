@@ -3,33 +3,61 @@ import "./Skills.css";
 
 function Skills() {
   const skillsList = {
-    frontend: ["HTML", "CSS", "JavaScript", "React"],
-    backend: ["Node.js", "Express", "REST APIs"],
-    database: ["MongoDB", "MySQL"],
-    tools: ["Git", "GitHub", "Webpack", "npm"],
+    frontend: [
+      "🌐 HTML5",
+      "🎨 CSS3",
+      "🟨 JavaScript",
+      "⚛ React",
+      "Vite",
+      "TypeScript",
+    ],
+
+    backend: ["🟩 Node.js", "Express", "REST APIs", "JWT Authentication"],
+    database: ["🍃 MongoDB", "MySQL"],
+    design: [
+      "Responsive Design",
+      "UI/UX Design",
+      "Wireframing",
+      "Accessibility",
+    ],
+    tools: ["🐙 Git", "GitHub", "Docker", "Netlify", "Figma"],
+    learning: ["AWS, Advanced TypeScript"],
+  };
+
+  const skillsTitles = {
+    frontend: "🎨 Frontend",
+    backend: "⚙️ Backend",
+    database: "🗄️ Databases",
+    design: " 🎨 Design",
+    tools: "🛠️ Tools",
+    learning: "🌱 Currently Learning",
   };
 
   return (
     <section id="skills" className="skills-section">
-      <h2 className="skills-title">Skills</h2>
-      <p className="skills-description">
-        Technologies I use to build scalable and user-focused applications
-      </p>
+      <div className="container">
+        <h2 className="skills-title">Tech Stack</h2>
+        <p className="skills-description">
+          These are the technologies and tools I use to build, design and deploy
+          modernresponsive web applications with a focus on performance,
+          accessiblity and user experience.
+        </p>
 
-      <div className="skills-grid">
-        {Object.entries(skillsList).map(([category, items]) => (
-          <div key={category} className="skill-card">
-            <h3>{category}</h3>
+        <div className="skills-grid">
+          {Object.entries(skillsList).map(([category, items]) => (
+            <div key={category} className="skill-card">
+              <h3>{skillsTitles[category]}</h3>
 
-            <div className="skill-tags">
-              {items.map((skill) => (
-                <span key={skill} className="skill-tag">
-                  {skill}
-                </span>
-              ))}
+              <div className="skill-tags">
+                {items.map((skill) => (
+                  <span key={skill} className="skill-tag">
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

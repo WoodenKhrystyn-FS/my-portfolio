@@ -3,27 +3,57 @@ import "./About.css";
 
 function About() {
   return (
-    <section className="about">
-      <div className="about-content">
-        <p className="about-description">
-          <strong>Hello!</strong> I'm a Web Development student graduating{" "}
-          <strong>July 2026</strong>, with a focus of JavaScript and React.
-          Specializing in building dynamic, responsive web applications that
-          provide clean modern designs and functionality.
-        </p>
-        <p className="about-description">
-          I have a passion for learning new technologies and applying them to
-          solve real-world problems. My projects range from personal portfolio
-          websites, interactive games to applications for businesses and or
-          smaller scale projects to showcase my ability to create engaging user
-          experiences. I am eager to collaborate on innovative projects and
-          contribute to the tech community.
-        </p>
-        <div className="skills-list">
-          <span>
-            <strong>Core Skills:</strong> JavaScript, React, HTML, CSS, Git,
-            Node.js, MongoDB, Express
-          </span>
+    <section className="about-section section">
+      <div className="container">
+        <div className="about-header">
+          <h2>About Me</h2>
+          <p>A little about who I am and what I build.</p>
+        </div>
+
+        <div className="about-grid">
+          <div className="about-text">
+            <p className="about-description">
+              Hi, I'm <strong>Khrystyn Wooden</strong>, a UX-focused Full-Stack
+              Developer graduating in <strong>July 2026</strong>. I enjoy
+              creating modern, responsive web applications that combine clean
+              design, intuitive user experiences and scalable code.
+            </p>
+            <p className="about-description">
+              What excites me most about software development is turning ideas
+              into products that people genuinely enjoy using. Whether I'm
+              designing an interface in React or building APIs with Node.js and
+              MongoDB, I enjoy creating applications that are both visually
+              appealing and functional.
+            </p>
+            <p className="about-description">
+              Recently, I've been developing projects including a bakery
+              website, a task management application, a JavaScript-based snake
+              game and this portfolio — all of which showcase my skills in
+              React, Node.js, MongoDB and modern web development practices.
+            </p>
+          </div>
+
+          <div className="about-card">
+            <h3>Quick Facts</h3>
+            <ul>
+              <li>
+                <strong>Location:</strong> Indianapolis, Indiana, USA
+              </li>
+              <li>
+                <strong>Education:</strong> Full-Stack Development Bachelor's
+                Degree (Expected July 2026)
+              </li>
+              <li>
+                <strong>Experience:</strong> 2+ years of experience in web
+                development and UX design.
+              </li>
+              <li>
+                <strong>Interests:</strong> Building responsive web
+                applications, exploring new technologies, and creating intuitive
+                user experiences.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

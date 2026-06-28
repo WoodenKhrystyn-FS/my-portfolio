@@ -47,42 +47,44 @@ const projectList = [
 function Projects() {
   return (
     <section id="projects" className="projects-section">
-      <h2 className="projects-title">Projects</h2>
-      <p className="projects-description">A selection of my recent work:</p>
-      <div className="project-grid">
-        {projectList.map((project) => (
-          <div key={project.id} className="project-card">
-            <div className="project-image">
-              <img src={project.image} alt={project.title} />
-            </div>
-
-            <div className="project-content">
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-
-              <div className="project-tech">
-                {Array.isArray(project.tech) &&
-                  project.tech.map((tech) => <span key={tech}>{tech}</span>)}
+      <div className="container">
+        <h2 className="projects-title">Projects</h2>
+        <p className="projects-description">A selection of my recent work:</p>
+        <div className="project-grid">
+          {projectList.map((project) => (
+            <div key={project.id} className="project-card">
+              <div className="project-image">
+                <img src={project.image} alt={project.title} />
               </div>
 
-              <div className="project-links">
-                {project.live && (
-                  <a href={project.live} className="btn btn-primary">
-                    Live
+              <div className="project-content">
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+
+                <div className="project-tech">
+                  {Array.isArray(project.tech) &&
+                    project.tech.map((tech) => <span key={tech}>{tech}</span>)}
+                </div>
+
+                <div className="project-links">
+                  {project.live && (
+                    <a href={project.live} className="btn btn-primary">
+                      Live
+                    </a>
+                  )}
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-secondary"
+                  >
+                    GitHub
                   </a>
-                )}
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-secondary"
-                >
-                  GitHub
-                </a>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
