@@ -1,8 +1,7 @@
 import React from "react";
-import img1 from "../assets/portfolio-screenshot.png";
+import img1 from "../assets/portfolio.png";
 import img2 from "../assets/snake.png";
-import img3 from "../assets/nails.png";
-import img4 from "../assets/TLLBscreenshot.png";
+import img4 from "../assets/TLLB.png";
 import "./Projects.css";
 
 const projectList = [
@@ -13,7 +12,7 @@ const projectList = [
       "Responsive portfolio  with dynamic components, smooth navigation and modern UI design.",
     tech: ["React", "CSS", "Vite"],
     image: img1,
-    github: "https://github.com/...",
+    github: "https://khrystynwooden.netlify.app/",
     live: "#",
   },
   {
@@ -22,17 +21,9 @@ const projectList = [
     description: "Classic snake game with dynamic speed and score tracking.",
     tech: ["JavaScript", "HTML", "CSS"],
     image: img2,
-    github: "https://github.com/...",
+    github: "http://127.0.0.1:5500/index.html",
   },
-  {
-    id: "nails",
-    title: "Nail Booking System",
-    description:
-      "Full-stack booking app with scheduling and service management.",
-    tech: ["React", "Node", "MongoDB"],
-    image: img3,
-    github: "https://github.com/...",
-  },
+
   {
     id: "tllb",
     title: "Bakery Website - (Course Project)",
@@ -40,7 +31,7 @@ const projectList = [
       "Responsive bakery site with product showcase and contact form.",
     tech: ["React", "CSS", "Vite"],
     image: img4,
-    github: "https://github.com/WoodenKhrystyn-FS/nessies-app",
+    github: "https://threelittleladiesbakery.netlify.app/",
   },
 ];
 
@@ -49,7 +40,7 @@ function Projects() {
     <section id="projects" className="projects-section">
       <div className="container">
         <h2 className="projects-title">Projects</h2>
-        <p className="projects-description">A selection of my recent work:</p>
+        <p className="projects-description">Current Projects:</p>
         <div className="project-grid">
           {projectList.map((project) => (
             <div key={project.id} className="project-card">
