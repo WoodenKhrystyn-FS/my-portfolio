@@ -12,8 +12,8 @@ const projectList = [
       "Responsive portfolio  with dynamic components, smooth navigation and modern UI design.",
     tech: ["React", "CSS", "Vite"],
     image: img1,
-    github: "https://khrystynwooden.netlify.app/",
-    live: "#",
+    github: "https://github.com/WoodenKhrystyn-FS/my-portfolio",
+    live: "https://khrystynwooden.netlify.app/",
   },
   {
     id: "snake",
@@ -22,7 +22,7 @@ const projectList = [
     tech: ["JavaScript", "HTML", "CSS"],
     image: img2,
     github: "https://github.com/WoodenKhrystyn-FS/SnakeGame",
-    live: "#",
+    live: "http://127.0.0.1:5500/index.html ",
   },
 
   {
@@ -32,8 +32,8 @@ const projectList = [
       "Responsive bakery site with product showcase and contact form.",
     tech: ["React", "CSS", "Vite"],
     image: img4,
-    github: "https://threelittleladiesbakery.netlify.app/",
-    live: "#",
+    github: "https://github.com/WoodenKhrystyn-FS/nessies-app",
+    live: "https://threelittleladiesbakery.netlify.app/",
   },
 ];
 
@@ -61,18 +61,25 @@ function Projects() {
 
                 <div className="project-links">
                   {project.live && (
-                    <a href={project.live} className="btn btn-primary">
-                      Live
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-primary"
+                    >
+                      Live Link
                     </a>
                   )}
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-secondary"
-                  >
-                    GitHub
-                  </a>
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-secondary"
+                    >
+                      GitHub Repo
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
