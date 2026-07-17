@@ -21,7 +21,7 @@ const projectList = [
     description: "Classic snake game with dynamic speed and score tracking.",
     tech: ["JavaScript", "HTML", "CSS"],
     image: img2,
-    github: "http://127.0.0.1:5500/index.html",
+    github: "https://github.com/WoodenKhrystyn-FS/SnakeGame",
     live: "#",
   },
 
