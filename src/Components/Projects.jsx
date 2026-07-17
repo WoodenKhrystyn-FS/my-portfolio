@@ -22,6 +22,7 @@ const projectList = [
     tech: ["JavaScript", "HTML", "CSS"],
     image: img2,
     github: "http://127.0.0.1:5500/index.html",
+    live: "#",
   },
 
   {
@@ -32,6 +33,7 @@ const projectList = [
     tech: ["React", "CSS", "Vite"],
     image: img4,
     github: "https://threelittleladiesbakery.netlify.app/",
+    live: "#",
   },
 ];
 
